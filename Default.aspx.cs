@@ -55,3 +55,25 @@ public partial class _Default : System.Web.UI.Page
         }
     }
 }
+
+//table tbuser
+//uname varchar(50)
+//upass varchar(50)
+
+
+//stored procedure code(logincheck)
+//CREATE PROCEDURE logincheck
+//@un varchar(50),
+	//@up varchar(50)
+//AS
+  //declare @ap varchar(50)
+  //select @ap = upass from tbuser
+    // where uname = @un
+
+  //if @ap is null
+    //  return -1
+ // else
+   // if @ap =@up
+     // return 1
+    //else
+     //return -2
